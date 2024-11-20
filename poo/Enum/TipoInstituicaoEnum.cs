@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace poo.Enum
 {
-    public enum EspecialidadeEnum
+    public enum TipoInstituicao
     {
-        pediatria,
-        cardiologia,
-        psiquiatria,
-        oncologia,
+       protecao civil,
+       inem,
+       hospital,
+     
 
-        
+
     }
 }
+

@@ -18,6 +18,19 @@ namespace Projeto_Unidades_Socorro
             medico1.AdicionarListaMedico(medico1);
             Medico.InformacaoMedico();
             Console.WriteLine("\n");
+
+            Bombeiro bombeiro1 = new Bombeiro(1, "Rui", "rui21@outlook.pt", 911235678, TurnoEnum.diurno, DateOnly.Parse("06-03-1988"), 276543);
+            bombeiro1.AdicionarListaBombeiro(bombeiro1);
+            Bombeiro.InformacaoBombeiro();
+            Console.WriteLine("\n");
+
+            Ocorrencia ocorrencia1 = new Ocorrencia(DateOnly.Parse("09-08-2000 18:20");
+            ocorrencia1.AdicionarListaOcorencia(ocorrencia1);
+            Ocorrencia.InformacaoOcorrencia();
+            Console.WriteLine("\n");
+
+            Instituicao instituicao1 = new Instituicao(TipoInstituicaoEnum.hospital, Hospital de Braga);
+            Instituicao.InformacaoInstituicao();
+            Console.WriteLine("\n");
         }
     }
-}

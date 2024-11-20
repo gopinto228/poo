@@ -13,7 +13,7 @@ namespace poo
         private Enfermeiro? enfermeiro_supervisor;
         public static List<Enfermeiro> enfermeiros_lista = new List<Enfermeiro>();
         public int Anos_Servico
-        {
+       { 
             get { return this.anos_servico; }
             set { this.anos_servico = value; }
         }
